@@ -1,6 +1,6 @@
 import pytest
 
-from myapp.calculator import add, subtract, multiply, divide
+from myapp.calculator import add, subtract, multiply, divide, remainder
 
 
 def test_add():
@@ -19,8 +19,10 @@ def test_divide():
     assert divide(10, 2) == 5
 
 
-def remainder(a, b):
-    return a % b
+def test_remainder():
+    assert remainder(10, 3) == 1
+    assert remainder(8, 4) == 0
+    assert remainder(7, 2) == 1
 
 
 def test_divide_by_zero():
