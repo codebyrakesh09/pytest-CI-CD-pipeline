@@ -20,6 +20,7 @@ python -m pytest -v
 - Subtraction
 - Multiplication
 - Division
+- Remainder
 - Division by zero
 
 GitHub Actions automatically runs the tests on pushes to main
