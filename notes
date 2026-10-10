@@ -1,0 +1,2 @@
+python -m pytest -v
+Use python -m pytest instead of just pytest. This launches pytest through the Python interpreter you're using and often resolves import-path issues.
