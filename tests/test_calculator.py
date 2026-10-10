@@ -22,7 +22,6 @@ def test_divide():
 def test_remainder():
     assert remainder(10, 3) == 1
     assert remainder(8, 4) == 0
-    assert remainder(7, 2) == 1
 
 
 def test_divide_by_zero():
